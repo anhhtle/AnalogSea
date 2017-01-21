@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #298eea;
+    font-family: "Roboto", helvetica, sans-serif;
+}
+
+.icon {
+    display: block;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+
+form {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+legend {
+    text-align: center;
+    font-size: 35px;
+    color: #565656;
+    margin: 0 auto 45px;
+}
+
+fieldset {
+    border: none;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    border: 2px solid light;
+    border-radius: 2px;
+    padding: 15px;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+
+input:invalid {
+    border: 2px red solid;
+}
+
+button {
+    width: 320px;
+    height: 55px;
+    border: 2px solid grey;
+    padding: 15px;
+    background-color: #15CD72;
+    border-radius: 3px;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.pw-link {
+    color: #565656;
+}
+
+.footer {
+    position: absolute;
+    left: 0; right: 0;  bottom: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer a {
+    color: white;
+    font-weight: bold;
+}
